@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Posters</title>
+    <style>
+        .poster-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .poster {
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .poster img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .poster:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="poster-container">
+        <a class="poster" href="film1.html">
+            <img src="poster1.jpg" alt="Film 1 Poster">
+        </a>
+        <a class="poster" href="film2.html">
+            <img src="poster2.jpg" alt="Film 2 Poster">
+        </a>
+        <a class="poster" href="film3.html">
+            <img src="poster3.jpg" alt="Film 3 Poster">
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {box-sizing: border-box;}
+
+
+    .logo img {
+    height: 50px; 
+    width: auto;
+    vertical-align: middle;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 2% 0 0 ;
+        display: flex;
+        border: 1px solid ;
+        background-color: #292929;
+    }
+
+    ul li a {
+        display: block;
+        color: #ddb3ae;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    ul li a:hover {
+    transition: all 0.6s ease;
+    background-color: #292929a4;
+    color: #2370a1;
+    }
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: #292929;
+        }
+        .poster-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            }
+        .poster {
+              position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .poster img {
+  width: 200px;
+  height: auto;
+  border-radius: 5%;
+  display: block;
+        }
+.poster:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2371a18c;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0 0 5% 5%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.poster:hover .overlay {
+  opacity: 1;
+}
+</style>
+
+</head>
+<body>
+ <!--  <h2>Image Overlay Title</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+    <a href="film40.html">
+        <img src="poster/poster40.jpg" alt="Avatar" class="image">
+        <div class="overlay" >  متری شیش و نیم </div>
+    </a>
+
+</div>
+ --> 
+    <ul>
+        <li class="nav logo">
+            <img src="logo.png" alt="لوگو">
+        </li>
+        <li class="nav"><a href="index.html">خانه</a></li>
+        <li class="nav"><a href="##">فیلم</a></li>
+        <li class="nav"><a href="##">سریال</a></li>
+        <li class="nav"><a href="persain.html">ایرانی</a></li>
+        <li class="nav"><a href="##">خارجی</a></li>
+        
+    </ul>
+    <div class="poster-container">
+        <a class="poster" href="film25.html">
+            <img src="poster/poster25.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film26.html">
+            <img src="poster/poster26.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film27.html">
+            <img src="poster/poster27.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film28.html">
+            <img src="poster/poster28.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film29.html">
+            <img src="poster/poster29.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film30.html">
+            <img src="poster/poster30.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film31.html">
+            <img src="poster/poster31.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film32.html">
+            <img src="poster/poster32.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film33.html">
+            <img src="poster/poster33.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film34.html">
+            <img src="poster/poster34.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film35.html">
+            <img src="poster/poster35.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film36.html">
+            <img src="poster/poster36.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film37.html">
+            <img src="poster/poster37.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film38.html">
+            <img src="poster/poster38.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film39.html">
+            <img src="poster/poster39.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film40.html">
+            <img src="poster/poster40.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film41.html">
+            <img src="poster/poster41.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+        <a class="poster" href="film42.html">
+            <img src="poster/poster42.jpg" alt="Film 1 Poster">
+            ​<div class="overlay"> یادگار جنوب </div>
+        </a>
+        <a class="poster" href="film43.html">
+            <img src="poster/poster43.jpg" alt="Film 2 Poster">
+            ​<div class="overlay"> بدون قرار قبلی </div>
+        </a>
+        <a class="poster" href="film44.html">
+            <img src="poster/poster44.jpg" alt="Film 3 Poster">
+            ​<div class="overlay"> رگ خواب   </div>
+        </a>
+    </div>    
+
+
+</body>
+</html>

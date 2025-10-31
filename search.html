@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .poster-container {
+        display: flex;         
+        flex-wrap: wrap;        
+        justify-content: center; 
+        gap: 20px;               
+        padding: 3%;
+        /*flex-direction: column; /* برای اینکه p بالای همه قرار بگیرد */        }
+
+        .poster img {
+        width: 200px;           
+        max-width: 100%;        
+        height: auto;          
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        }
+        .poster-container p {
+        width: 100%;    
+        font-size: 20px;
+        font-weight: bold;
+        color: #bdbdbd;   
+        margin-bottom: 2%; 
+        margin-right: 20%; 
+}
+    </style>
+</head>
+<body>
+    <div class="search_container">
+        <img src="logo.png" alt="لوگو" class="moving_logo rotate">
+        <div class="search_inp">
+            <input type="text" placeholder="جستجو کنید...">
+            <button class="search_btn">جستجو</button>
+        </div>
+    </div>
+
+    <!--<div class="search_container">
+        <div class="search_inp">
+            <input type="text" placeholder="جستجو کنید...">
+            <button class="search_btn">جستجو</button>
+        </div>
+    </div>-->
+
+    <div class="poster-container">
+        <p><strong> جستجو اخیر </strong></p>
+        <a class="poster" href="film1.html">
+            <img src="poster/poster1.jpg" alt="Movie 1">
+        </a>
+        <a class="poster" href="film39.html">
+            <img src="poster/poster39.jpg" alt="Movie 2">
+        </a>
+        <a class="poster" href="film40.html">
+            <img src="poster/poster40.jpg" alt="Movie 3">
+        </a>
+    </div>
+
+</body>
+</html>
